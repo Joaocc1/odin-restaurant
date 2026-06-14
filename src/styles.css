@@ -64,6 +64,7 @@ button {
   background: transparent;
   outline: none;
   border: none;
+  color: #1a1b41;
   cursor: pointer;
   font-family: "Shadows Into Light";
   font-size: 2rem;
@@ -102,9 +103,18 @@ button:hover {
   padding: 1.25rem;
 }
 
+.main-heading {
+  font-size: 2rem;
+  line-height: 1.7;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
 p {
   font-size: 0.875rem;
+  color: #1a1b41;
   line-height: 1.25rem;
+  margin-block: 1rem;
 }
 
 h1,
@@ -112,5 +122,4 @@ h2 {
   color: #1a1b41;
   text-align: center;
   margin: 0;
-  margin-block: 0.85rem;
 }
