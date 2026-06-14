@@ -109,7 +109,25 @@ button:hover {
   font-size: 2rem;
   line-height: 2;
   margin-block: 2.15em;
-  margin-bottom: 1.5em;
+  margin-bottom: 1em;
+}
+
+.opening-hours {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3em;
+  gap: 4rem;
+}
+
+.opening-hours > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-img {
+  width: 200px;
 }
 
 p {
