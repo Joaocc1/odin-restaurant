@@ -28,10 +28,6 @@ body {
   min-height: 100vh;
 }
 
-header {
-  /*padding-top: 2rem;*/
-}
-
 .logo {
   font-family: "Libre Baskerville";
   font-size: 4rem;
@@ -49,6 +45,8 @@ header {
 }
 
 nav {
+  display: flex;
+  gap: 2rem;
   background: repeating-linear-gradient(
     transparent 0 calc(1.2rem - 1px),
     #d1dae0 0 1.2rem
@@ -58,6 +56,20 @@ nav {
     0 0 0 6px rgba(255 255 255 / 0.1) inset,
     2px 4px 10px 0 rgba(0 0 0 / 0.025);
   height: 39px;
+  padding-inline: 1.25rem;
+}
+
+button {
+  background: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-family: "Shadows Into Light";
+  font-size: 2rem;
+}
+
+.btn-selected {
+  border-right: 1px solid black;
 }
 
 .board {
@@ -65,6 +77,7 @@ nav {
   box-shadow: 0 12px 10px rgba(0, 0, 0, 0.5);
   min-height: 80vh;
   margin-inline: 100px;
+  margin-bottom: 50px;
   padding: 0 2rem 2rem 2rem;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -92,4 +105,5 @@ p {
 h1 {
   color: #1a1b41;
   margin-top: 1.25rem;
+  text-align: center;
 }
