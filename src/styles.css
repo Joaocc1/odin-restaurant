@@ -68,8 +68,12 @@ button {
   font-size: 2rem;
 }
 
+button:hover {
+  text-decoration: underline;
+}
+
 .btn-selected {
-  border-right: 1px solid black;
+  text-decoration: underline;
 }
 
 .board {
