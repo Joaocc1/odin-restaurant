@@ -150,3 +150,21 @@ h2 {
     margin-inline: 25px;
   }
 }
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.menu-category {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+}
